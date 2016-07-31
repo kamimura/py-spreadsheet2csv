@@ -6,7 +6,7 @@ import sys
 import openpyxl
 import csv
 
-path = '.'
+path = os.curdir
 if len(sys.argv) > 1:
     path = sys.argv[1]
 
